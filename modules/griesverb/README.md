@@ -1,4 +1,4 @@
-# `clouds-verb` — CLOUDS VERB
+# `griesverb` — GRIESVERB
 
 A reverb for FX2: the reverb stage of Mutable Instruments Clouds
 ([`clouds/dsp/fx/reverb.h`](https://github.com/pichenettes/eurorack/blob/master/clouds/dsp/fx/reverb.h),
@@ -38,7 +38,7 @@ and `reverb.h`; they have not been compared by ear.
 
 ## Measured
 
-Under `dsp_host` (`tools/verify/verify_cloudsverb.py`, remix `test/clouds-verb`):
+Under `dsp_host` (`tools/verify/verify_griesverb.py`, remix `test/griesverb`):
 - 368 DSP words on each payload; the pricer counts 174 cycles per sample, a floor (it counts words, not memory stalls).
 - The first 52 calls pass the input through while the ring is cleared (310 words a call).
 - AMNT 0 is bit-exact dry.

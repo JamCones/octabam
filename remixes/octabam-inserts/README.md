@@ -20,7 +20,7 @@ The stock DELAY stays; the other stock effects give up their DSP words
 | TRANSIENT | ✓ | ✓ | transient shaper (Ignorato) | [`transient`](../../modules/transient/README.md) |
 | EUCLID | ✓ | ✓ | Euclidean filter / amp sequencer (repeat98) | [`euclid`](../../modules/euclid/README.md) |
 | DELAY | | ✓ | stock | |
-| CLOUDS VERB | | ✓ | Mutable Instruments Clouds' reverb: AMNT, GAIN, TIME, DIFF, TONE | [`clouds-verb`](../../modules/clouds-verb/README.md) |
+| GRIESVERB | | ✓ | Mutable Instruments Clouds' reverb: AMNT, GAIN, TIME, DIFF, TONE | [`griesverb`](../../modules/griesverb/README.md) |
 
 The three stations are FX1-only in the bus remix; here each has its `SLOTS`
 build setting at `FX1+FX2`, so an FX2 instance runs live. CHARACTER's KEY
